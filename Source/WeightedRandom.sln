@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandom.DemoConsoleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandom", "WeightedRandom\WeightedRandom.csproj", "{2F801AC2-756C-471A-8BDB-805B7DA0D225}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandom.Tests", "WeightedRandom.Tests\WeightedRandom.Tests.csproj", "{CC8F8ABE-FE89-4970-AFED-2CFCF61099D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{2F801AC2-756C-471A-8BDB-805B7DA0D225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F801AC2-756C-471A-8BDB-805B7DA0D225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F801AC2-756C-471A-8BDB-805B7DA0D225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8F8ABE-FE89-4970-AFED-2CFCF61099D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8F8ABE-FE89-4970-AFED-2CFCF61099D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8F8ABE-FE89-4970-AFED-2CFCF61099D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8F8ABE-FE89-4970-AFED-2CFCF61099D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
