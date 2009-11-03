@@ -52,6 +52,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WeightedRandomTests.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WeightedRandom\WeightedRandom.csproj">
+      <Project>{2F801AC2-756C-471A-8BDB-805B7DA0D225}</Project>
+      <Name>WeightedRandom</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
