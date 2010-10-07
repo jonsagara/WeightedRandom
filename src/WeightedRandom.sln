@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandom.DemoConsoleApp", "WeightedRandom.DemoConsoleApp\WeightedRandom.DemoConsoleApp.csproj", "{F54D50B8-9192-4A32-8963-AD6F55CE01AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandom", "WeightedRandom\WeightedRandom.csproj", "{2F801AC2-756C-471A-8BDB-805B7DA0D225}"
