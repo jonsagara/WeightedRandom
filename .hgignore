@@ -1,5 +1,0 @@
-glob:*.suo
-glob:bin/
-glob:obj/
-glob:TestResult.xml
-glob:*.VisualState.xml
