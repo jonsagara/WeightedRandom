@@ -1,11 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandom.DemoConsoleApp", "WeightedRandom.DemoConsoleApp\WeightedRandom.DemoConsoleApp.csproj", "{F54D50B8-9192-4A32-8963-AD6F55CE01AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandom", "WeightedRandom\WeightedRandom.csproj", "{2F801AC2-756C-471A-8BDB-805B7DA0D225}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandom.Tests", "WeightedRandom.Tests\WeightedRandom.Tests.csproj", "{CC8F8ABE-FE89-4970-AFED-2CFCF61099D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{85026761-00B4-4009-9384-186835890F34}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
