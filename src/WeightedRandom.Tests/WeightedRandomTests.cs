@@ -1,23 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-using Xunit;
-using WeightedRandom;
+﻿using NUnit.Framework;
 
 namespace WeightedRandom.Tests
 {
-	public class WeightedRandomTests
-	{
-		[Fact]
-		public void WeightedRandom_CreateWithTotalWeight100_Succeeds()
-		{
-			var items = new WeightedRandomItem<string>[]
+    [TestFixture]
+    public class WeightedRandomTests
+    {
+        [Test]
+        public void WeightedRandom_CreateWithTotalWeight100_Succeeds()
+        {
+            var items = new[]
 			{
 				new WeightedRandomItem<string>("A", 100)
 			};
 
-			Assert.DoesNotThrow(() => { new WeightedRandom<string>(items); });
-		}
-	}
+            Assert.DoesNotThrow(() => { new WeightedRandom<string>(items); });
+        }
+    }
 }
